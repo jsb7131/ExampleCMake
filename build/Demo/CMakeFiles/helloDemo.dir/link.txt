@@ -1,0 +1,1 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/helloDemo.dir/demo.cpp.o CMakeFiles/helloDemo.dir/demo_b.cpp.o  -o helloDemo  ../Hello/libHello.a 

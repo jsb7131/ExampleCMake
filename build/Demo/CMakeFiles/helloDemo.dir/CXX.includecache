@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/jason/Desktop/ExampleCMake/Demo/demo.cpp
+iostream
+-
+../Hello/hello.cpp
+/Users/jason/Desktop/ExampleCMake/Hello/hello.cpp
+demo_b.h
+/Users/jason/Desktop/ExampleCMake/Demo/demo_b.h
+
+/Users/jason/Desktop/ExampleCMake/Demo/demo_b.cpp
+iostream
+-
+demo_b.h
+/Users/jason/Desktop/ExampleCMake/Demo/demo_b.h
+
+/Users/jason/Desktop/ExampleCMake/Demo/demo_b.h
+
+/Users/jason/Desktop/ExampleCMake/Hello/hello.cpp
+iostream
+-
+
